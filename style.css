@@ -1,0 +1,144 @@
+/** START FULL DOC ATTRIBUTES **/
+/** Setting the whole documents padding and margin to zero **/
+*{
+  margin: 0;
+  padding: 0;
+}
+/** Setting the whole documents Font family and size **/
+html{
+  font-family: arial;
+  font-size: 18px;
+}
+body{
+  padding-top: 60px;
+  background-image: url("img/stars.jpg");
+  background-size: 100% auto;
+}
+h1{
+  padding: 10px;
+  margin: 15px 10px 15px 10px;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+/** END FULL DOC ATTRIBUTES **/
+
+/** START NAV STYLE **/
+/** Setting the nav bar: Top of page. Full width of page. Font
+size. Background color of bar.**/
+nav{
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  top: 0;
+  height: 50px;
+  font-size: 20px;
+  background: black;
+  border-bottom: 1px solid white;
+}
+/** Adjusting nav bar sections: Flex to make items VP relative.
+Center to page.  Center to bar. Remove link underline. Set font
+size/color/weight. **/
+a.one{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+}
+/** Setting a hover color to the nav items **/
+a.one:hover{
+  background-image: url("img/stars.jpg") ;
+  text-decoration: none;
+  color: yellow;
+}
+/** Setting a active color to the nav item in use - this will be
+how they know what sound they are on **/
+a.one:active{
+
+}
+/** END TOP NAV **/
+
+/** START SECTION STYLING **/
+/** Setting section height to size of the viewport.  Flex
+to allow the <div> and <aside> to go side by side.**/
+section{
+  height: 100vh;
+  display: flex;
+}
+#coverimg{
+  width: 49.5vw;
+  margin: 10px 10px 0px 10px;
+  height: auto;
+}
+#description{
+  width: 48vw;
+  margin: 10px 0px 0px 10px;
+  padding: 10px;
+  text-align: justify;
+  background-color: black;
+  color: white;
+
+}
+/** END SECTION STYLING **/
+
+/** START OF DEFINING SOUNDS **/
+/** Setting the area that I want my sounds to be.  **/
+aside{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  margin-top: 10px;
+}
+article{
+  flex: 30%;
+}
+.sound{
+  height: 190px;
+  width: 190px;
+  margin: 0px 10px 20px 10px;
+  text-align: center;
+  color: white;
+}
+#sound_1{
+  background-color: #222;
+}
+#sound_1:hover{
+  background-image: url("img/");
+  background-size:
+}
+#sound_2{
+  background-color: #222;
+}
+#sound_3{
+  background-color: #222;
+}
+#sound_4{
+  background-color: #222;
+}
+#sound_5{
+  background-color: #222;
+}
+#sound_6{
+  background-color: #222;
+}
+/** END DEFINING OF SOUNDS **/
+
+/** START FOOTER NAV **/
+footer{
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  bottom: 0;
+  height: 50px;
+  font-size: 30px;
+  background: black;
+  border-top: 1px solid white;
+}
+/** END FOOTER NAV **/
+
+/** -- **/
